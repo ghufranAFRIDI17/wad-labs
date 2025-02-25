@@ -1,15 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Website</title>
-</head>
-<body>
-    <h1>Welcome to my First Website</h1>
-    <p>
-      My name is Ghufran Mahmood and I'm student of Quaid-i-Azam Uinversity. I'm studying
-      computer science. It is my 6th semester.
-    </p>
+    <style>
+      body {
+        font-size: 20px;
+      }
+      h1,
+      p,
+      li {
+        text-align: center;
+      }
+      body {
+        background-color: rgb(181, 195, 229);
+      }
+      ul,
+      ol {
+        display: block;
+        width: 15%;
+        margin: auto;
+        /* list-style-type: none; */
+      }
+      a {
+        text-decoration: none;
+        color: rgb(4, 20, 83);
+        font-style: italic;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Welcome to my First Website</h1>
+      <div id="intro">
+        <p>
+          My name is Ghufran Mahmood and I'm student of Quaid-i-Azam Uinversity.
+          I'm studying computer science. It is my 6th semester.
+        </p>
+      </div>
+      <div id="interests">
+        <h1>My Interests</h1>
+        <p>
+          I am interested in:
+        </p>
+        <ol>
+          <li>Programming</li>
+          <li>Gaming</li>
+          <li>Watching movies</li>
+        </ol>
+      </div>
+      <div id="contact">
+        <h1>Contacts</h1>
+        <p>
+          Contact us through:
+        </p>
+        <ul>
+          <li>
+            Instagram:
+            <a href="https://www.instagram.com" target="_blank"
+              >GhufranAfridi17</a
+            >
+          </li>
+          <li>
+            Facebook:
+            <a href="https://www.facebook.com" target="_blank"
+              >GhufranAfridi17</a
+            >
+          </li>
+          <li>
+            Youtube:
+            <a href="https://www.youtube.com" target="_blank"
+              >GhufranAfridi17</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
