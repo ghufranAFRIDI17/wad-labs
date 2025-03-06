@@ -1,54 +1,78 @@
-body{
-    margin: 50px;
-    padding: 50px;
-    background-color: aliceblue;
-}
-.text_center{
+body {
+    margin: 20px;
+    padding: 10px;
+    background-color: #d5e7f7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .text_center {
     text-align: center;
-}
-a{
-   text-decoration: none; 
-}
-ul{
+  }
+  .first_letter {
+    font-size: 32px;
+  }
+  .justify_top{
+    text-align: justify;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
     list-style-type: none;
-}
-nav{
+  }
+  nav {
+    position: sticky;
+    top: 5px;
+    overflow: hidden;
     background-color: rgb(16, 7, 50);
-    margin: 10px;
+  }
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  nav a:active {
+    background-color: #04aa6d;
+    color: white;
+  }
+  section {
     padding: 10px;
-}
-nav li{
-    display: inline;
-    margin-top: 5px;
-    margin: 5px;
-}
-nav li a{
-    color:white;
-    margin: auto 30px;
-}
-section{
-    padding: 10px;
     margin: 10px;
-}
-section ul{
+  }
+  section ul {
     width: 50%;
     margin: auto;
-}
-figcaption {
+  }
+  figcaption {
     text-align: center;
-}
-#profile{
+  }
+  #profile {
     display: inline-block;
-    width: 30%;
-}
-#profile img{
+    width: 20%;
+  }
+  #profile img {
+    border: 2px solid rgb(50, 135, 205);
+    border-radius: 20px;
     height: 200px;
-}
-#profile figure{
+  }
+  #profile img:hover{
+    scale: 1.2;
+  }
+  #profile figure {
     width: 200px;
     margin: auto;
-}
-#about > p{
+  }
+  #about > p {
     display: inline-block;
-    width: 65%;
-}
+    width: 75%;
+  }
+  footer{
+    background-color: #b0cfea;
+  }
