@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Exploree</title>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <div class="grid md:grid-cols-[250px_1fr] grid-cols-1 gap-4 p-4">
+      <!-- Header -->
+      <header class="col-span-full bg-gray-700 text-white text-center p-6 rounded-xl shadow-md">
+        <div id="logo" class="transition-transform duration-300 hover:scale-[1.09] w-[30%] mx-auto">
+          <a href="#home" class="uppercase text-3xl font-bold tracking-wider">EXPLOREE</a>
+        </div>
+      </header>
+
+      <!-- Sidebar -->
+      <aside class="hidden md:block bg-white p-4 rounded-lg shadow-md">
+        <ul class="space-y-4 text-center">
+          <li><a href="#home" class="block py-2 px-4 rounded-md bg-gray-200 hover:bg-gray-700 hover:text-white">Home</a></li>
+          <li><a href="#about" class="block py-2 px-4 rounded-md bg-gray-200 hover:bg-gray-700 hover:text-white">About Us</a></li>
+          <li><a href="#services" class="block py-2 px-4 rounded-md bg-gray-200 hover:bg-gray-700 hover:text-white">Services</a></li>
+          <li><a href="#contact" class="block py-2 px-4 rounded-md bg-gray-200 hover:bg-gray-700 hover:text-white">Contact Us</a></li>
+          <li><a href="explore.html" class="block py-2 px-4 rounded-md bg-gray-200 hover:bg-gray-700 hover:text-white">Explore</a></li>
+          <li><a href="design.html" class="block py-2 px-4 rounded-md bg-gray-200 hover:bg-gray-700 hover:text-white">Design</a></li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="bg-white p-6 rounded-lg shadow-md">
+        <section id="home" class="flex md:flex-row flex-col items-center gap-6">
+          <!-- Profile Card -->
+          <div class="bg-gray-200 text-center text-white p-4 rounded-xl shadow-lg w-full max-w-sm transform transition-transform hover:scale-105 hover:shadow-zinc-950">
+            <div class="flex flex-col items-center gap-4">
+              <img src="profile.jpg" alt="Ghufran Mahmood" class="w-28 h-28 rounded-full shadow-md" />
+              <div>
+                <h2 class="text-xl font-semibold text-gray-800">Ghufran Mahmood</h2>
+                <p class="text-gray-700">
+                  I am a student of <abbr title="Bachelor of Science">BS</abbr>
+                  <abbr title="Computer Science">CS</abbr> at
+                  <abbr title="Quaid e Azam University">QAU</abbr>
+                </p>
+                <hr class="my-2 border-gray-400" />
+                <p class="text-sm text-gray-600">2k followers</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article Section -->
+          <article class="bg-cover bg-center rounded-xl shadow-lg w-full max-w-4xl" style="background-image: url('img8.jpg');">
+            <div class="bg-white bg-opacity-80 p-6 rounded-xl text-black space-y-4">
+              <h1 class="text-3xl font-bold text-center text-gray-800">Photography</h1>
+              <p>
+                Photography is the art, application, and practice of creating
+                images by recording light, either electronically by means of an
+                image sensor, or chemically by means of a light-sensitive
+                material such as photographic film. It is employed in many
+                fields of science, manufacturing (e.g., photolithography), and
+                business, as well as its more direct uses for art, film and
+                video production, recreational purposes, hobby, and mass
+                communication. A person who captures or takes photographs is
+                called a photographer.
+              </p>
+              <p>
+                Typically, a lens is used to focus the light reflected or
+                emitted from objects into a real image on the light-sensitive
+                surface inside a camera during a timed exposure. With an
+                electronic image sensor, this produces an electrical charge at
+                each pixel, which is electronically processed and stored in a
+                digital image file for subsequent display or processing. The
+                result with photographic emulsion is an invisible latent image,
+                which is later chemically "developed" into a visible image,
+                either negative or positive, depending on the purpose of the
+                photographic material and the method of processing. A negative
+                image on film is traditionally used to photographically create a
+                positive image on a paper base, known as a print, either by
+                using an enlarger or by contact printing.
+              </p>
+              <p class="text-right text-sm text-gray-600">March 13, 2025</p>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="col-span-full bg-gray-700 text-white text-center py-4 rounded-xl shadow-md">
+        &copy; 2025. All Rights Reserved.
+      </footer>
+    </div>
+  </body>
+</html>
